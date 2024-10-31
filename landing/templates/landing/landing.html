@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easyday - Powered by RAG, Llama, and Pinecone</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'landing/styles.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Easyday</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h2>The Future of Recruitment 🚀</h2>
+            <p>Harness the power of RAG, Llama, and Pinecone to hire the best!</p>
+            <a href="/login/" class="cta-button">Start Hiring!</a>  <!-- Redirect to Chainlit -->
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="feature">
+            <h3>Powered by RAG</h3>
+            <p>Leverage cutting-edge retrieval-augmented generation for high-performance, real-time AI solutions.</p>
+        </div>
+        <div class="feature">
+            <h3>Llama AI Integration</h3>
+            <p>Empower your application with advanced natural language processing using Llama's robust AI models.</p>
+        </div>
+        <div class="feature">
+            <h3>Seamless with Pinecone</h3>
+            <p>Unlock the full potential of vector-based searches and embeddings with Pinecone's state-of-the-art technology.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Easyday. All rights reserved. | Built with RAG, Llama, and Pinecone.</p>
+    </footer>
+</body>
+</html>
