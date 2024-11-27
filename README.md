@@ -1,3 +1,8 @@
+# 🎯 LLM-Powered Resume Matching System
+
+## 📝 Problem & Solution
+Transformed traditional resume screening by developing an AI-driven solution that reduces candidate screening time by 5 hours. The system enables recruiters to perform natural language queries for candidate matching, replacing manual filtering with intelligent, automated processing.
+
 ## 🏗️ Architecture
 - **Resume Parsing:** LlamaParse for structured metadata extraction
 - **Vector Database:** Dual embedding strategy in Pinecone with static chunking (200 tokens, 15-char overlap)
